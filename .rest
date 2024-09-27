@@ -1,3 +1,6 @@
+
+# Local Host
+
 GET http://localhost:8080/contacts
 ###
 GET http://localhost:8080/contacts/66f6cccfce5a990e8a74cf8c
@@ -5,3 +8,15 @@ GET http://localhost:8080/contacts/66f6cccfce5a990e8a74cf8c
 GET http://localhost:8080/contacts/66f6cccfce5a990e8a74cf8d
 ###
 GET http://localhost:8080/contacts/66f6cccfce5a990e8a74cf8e
+
+
+# Production Deploy
+
+###
+GET https://cse341w2-personal.onrender.com/contacts
+###
+GET https://cse341w2-personal.onrender.com/contacts/66f6cccfce5a990e8a74cf8c
+###
+GET https://cse341w2-personal.onrender.com/contacts/66f6cccfce5a990e8a74cf8d
+###
+GET https://cse341w2-personal.onrender.com/contacts/66f6cccfce5a990e8a74cf8e
