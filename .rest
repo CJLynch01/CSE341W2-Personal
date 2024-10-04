@@ -1,7 +1,10 @@
 
 # Local Host
 
+//Get all contacts
 GET http://localhost:8080/contacts
+
+//Get contact by ID
 ###
 GET http://localhost:8080/contacts/66f6cccfce5a990e8a74cf8c
 ###
@@ -9,6 +12,17 @@ GET http://localhost:8080/contacts/66f6cccfce5a990e8a74cf8d
 ###
 GET http://localhost:8080/contacts/66f6cccfce5a990e8a74cf8e
 
+
+//Create contact
+###
+POST http://localhost:8080/contacts
+{
+    "firstName": "Rocky",
+    "lastName": "Balboa",
+    "email": "rockybalboa@test.com",
+    "favoriteColor": "Gold",
+    "birthday": "07/06/1945"
+}
 
 # Production Deploy
 
