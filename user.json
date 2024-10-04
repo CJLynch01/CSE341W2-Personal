@@ -1,26 +1,29 @@
 [
   {
-  "contact1": {
-    "firstName": "Joseph",
-    "lastName": "Smith",
-    "email": "joesmith@test.com",
-    "favoriteColor": "Blue",
-    "birthday": "12/23/1805"
-  }},
+    "contact1": {
+      "firstName": "Joseph",
+      "lastName": "Smith",
+      "email": "joesmith@test.com",
+      "favoriteColor": "Blue",
+      "birthday": "12/23/1805"
+    }
+  },
   {
     "contact2": {
-    "firstName": "Emma",
-    "lastName": "Smith",
-    "email": "emmasmith@test.com",
-    "favoriteColor": "Green",
-    "birthday": "07/10/1804"
-  }},
+      "firstName": "Emma",
+      "lastName": "Smith",
+      "email": "emmasmith@test.com",
+      "favoriteColor": "Green",
+      "birthday": "07/10/1804"
+    }
+  },
   {
     "contact3": {
-    "firstName": "Brigham",
-    "lastName": "Young",
-    "email": "brighamyoung@test.com",
-    "favoriteColor": "Orange",
-    "birthday": "06/01/1801"
-  }}
+      "firstName": "Brigham",
+      "lastName": "Young",
+      "email": "brighamyoung@test.com",
+      "favoriteColor": "Orange",
+      "birthday": "06/01/1801"
+    }
+  }
 ]
