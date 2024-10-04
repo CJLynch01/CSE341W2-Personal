@@ -28,7 +28,7 @@ Content-Type: application/json
 
 //Edit contact
 ###
-PUT http://localhost:8080/contacts/67001b6789ec39baba39e7d0 HTTP/1.1 
+PUT http://localhost:8080/contacts/67001d455f5ce83a5d3f82e0 HTTP/1.1 
 Content-Type: application/json
 
 {
@@ -41,7 +41,7 @@ Content-Type: application/json
 
 //Delete contact
 ###
-DELETE http://localhost:8080/contacts/67001b6789ec39baba39e7d0 HTTP/1.1
+DELETE http://localhost:8080/contacts/67001d455f5ce83a5d3f82e0 HTTP/1.1
 
 # Production Deploy
 
@@ -72,17 +72,17 @@ Content-Type: application/json
 
 //Edit contact
 ###
-PUT https://cse341w2-personal.onrender.com/contacts/ HTTP/1.1 
+PUT https://cse341w2-personal.onrender.com/contacts/67001d455f5ce83a5d3f82e0 HTTP/1.1 
 Content-Type: application/json
 
 {
     "firstName": "Rocky",
     "lastName": "Balboa",
     "email": "rockybalboa@test.com",
-    "favoriteColor": "Gold",
+    "favoriteColor": "Red",
     "birthday": "07/06/1945"
 }
 
 //Delete contact
 ###
-DELETE https://cse341w2-personal.onrender.com/contacts/  HTTP/1.1
+DELETE https://cse341w2-personal.onrender.com/contacts/67001d455f5ce83a5d3f82e0  HTTP/1.1
