@@ -9,4 +9,6 @@ router.get('/:id', contactsController.getSingle);
 
 router.post('/', contactsController.createNewContact);
 
+router.put('/:id', contactsController.editContact);
+
 module.exports = router;
