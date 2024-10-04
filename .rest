@@ -35,7 +35,7 @@ Content-Type: application/json
     "firstName": "Rocky",
     "lastName": "Balboa",
     "email": "rockybalboa@test.com",
-    "favoriteColor": "Red",
+    "favoriteColor": "Gold",
     "birthday": "07/06/1945"
 }
 
