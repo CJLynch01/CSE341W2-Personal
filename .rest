@@ -28,20 +28,20 @@ Content-Type: application/json
 
 //Edit contact
 ###
-PUT http://localhost:8080/contacts/670012d65fd42da1f08fd471 HTTP/1.1 
+PUT http://localhost:8080/contacts/67001b6789ec39baba39e7d0 HTTP/1.1 
 Content-Type: application/json
 
 {
     "firstName": "Rocky",
     "lastName": "Balboa",
     "email": "rockybalboa@test.com",
-    "favoriteColor": "Gold",
+    "favoriteColor": "Red",
     "birthday": "07/06/1945"
 }
 
 //Delete contact
 ###
-DELETE http://localhost:8080/contacts/670012d65fd42da1f08fd471  HTTP/1.1
+DELETE http://localhost:8080/contacts/67001b6789ec39baba39e7d0 HTTP/1.1
 
 # Production Deploy
 
