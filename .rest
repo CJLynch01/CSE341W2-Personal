@@ -15,7 +15,9 @@ GET http://localhost:8080/contacts/66f6cccfce5a990e8a74cf8e
 
 //Create contact
 ###
-POST http://localhost:8080/contacts
+POST http://localhost:8080/contacts HTTP/1.1 
+Content-Type: application/json
+
 {
     "firstName": "Rocky",
     "lastName": "Balboa",
@@ -26,11 +28,28 @@ POST http://localhost:8080/contacts
 
 # Production Deploy
 
+//Get all contacts
 ###
 GET https://cse341w2-personal.onrender.com/contacts
+
+//Get contact by ID
 ###
 GET https://cse341w2-personal.onrender.com/contacts/66f6cccfce5a990e8a74cf8c
 ###
 GET https://cse341w2-personal.onrender.com/contacts/66f6cccfce5a990e8a74cf8d
 ###
 GET https://cse341w2-personal.onrender.com/contacts/66f6cccfce5a990e8a74cf8e
+
+//Create contact
+###
+POST https://cse341w2-personal.onrender.com/contacts HTTP/1.1 
+Content-Type: application/json
+
+{
+    "firstName": "Rocky",
+    "lastName": "Balboa",
+    "email": "rockybalboa@test.com",
+    "favoriteColor": "Gold",
+    "birthday": "07/06/1945"
+}
+
